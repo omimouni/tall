@@ -15,7 +15,9 @@ class TallPreset extends Preset
         'resolve-url-loader' => '^3.1',
         'sass' => '^1.3',
         'sass-loader' => '^8.0',
-        'tailwindcss' => '^3.4',
+        'tailwindcss' => '^4.0',
+        '@tailwindcss/postcss' => '^4.0',
+        '@tailwindcss/vite' => '^4.0',
     ];
 
     const NPM_PACKAGES_TO_REMOVE = [
